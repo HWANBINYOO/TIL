@@ -115,3 +115,45 @@ var test = ['a', 'b', 'c'];
 var result1 = test.join(); // a,b,c
 var result2 = test.join('');// abc
 ```
+
+## sort
+배열의 요소들을 정리해준다
+
+### 숫자정렬
+
+```js
+let numbers = [1, 10, 2, 20, 3, 30];
+```
+
+- 오름차순
+
+```js
+numbers.sort((next, prev) => next - prev);[1,2,3,10,20,30]
+```
+
+- 내림차순
+
+```js
+numbers.sort((next, prev) => prev - next); //[30,20,10,3,2,1]
+```
+### 문자정렬
+
+```js
+let strArray = ["BA", "BB","AA", "AB", "CB", "CA"];
+```
+
+- 오름차순
+ ```js
+strArray.sort();
+```
+- 내림차순
+```js
+strArray.sort(function compare(a, b) {
+  return a == b ? 0 : a > b ? -1 : 1;
+});
+```
+
+
+
+
+
