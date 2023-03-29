@@ -62,7 +62,7 @@ span {
 
 가장 작은 화면에서만 수직으로 컬럼을 세우는 구조를 가지는 패턴이다
 
-![image](https://user-images.githubusercontent.com/82823150/202619746-d2969806-4844-4658-9f7f-0b9cd70acb81.png)
+<img width="532" alt="image" src="https://user-images.githubusercontent.com/82823150/228539911-8d2ef192-9483-4e33-859e-0b8e306e7525.png">
 
 ### Column Drop
 
@@ -85,9 +85,9 @@ span {
 
 ### off Canvas
 
-큰 화면에서는 모든 컬럼들을 보여주고 작은화면은 다른 부가전인 컬럼들을 화면 밖에 숨겨놓은 패턴이다
+큰 화면에서는 모든 컬럼들을 보여주고 작은화면은 다른 부가적인 컬럼들을 화면 밖에 숨겨놓은 패턴이다
 
-숨겨저 있는 다른컬럼은 팰요할 때만 접근 하도록 한다
+숨겨져 있는 다른컬럼은 필요할 때만 접근 하도록 한다
 
 ![image](https://user-images.githubusercontent.com/82823150/202622880-a061d8bc-5c37-43eb-8ab8-aa03d1884f05.png)
 
